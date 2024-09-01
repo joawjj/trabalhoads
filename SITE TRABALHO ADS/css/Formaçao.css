@@ -1,0 +1,80 @@
+html{
+    background-color: #B0C4DE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.tec-class{
+    background-color: white;
+    text-decoration: none;
+    margin: 40px;
+    box-shadow: -5px 5px black;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+.menu-botoes{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.botao:hover{
+    transition: 1s;
+    background-color: #DCDCDC;
+}
+
+.botao:active{
+    box-shadow: 0px 0px;
+    transition: 100ms;
+    transform:translate(-5px, 5px);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.botao{
+    text-decoration: none black;
+    border: black solid 2px;
+    border-radius: 5px;
+    box-shadow: -5px 5px black;
+    height: 60px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.main{
+    display: grid;
+    grid-template-columns:repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+#py{
+    grid-row: 1/2;
+}
+
+#pd{
+    grid-row: 1/2;
+    grid-column: 2/2;
+}
+
+#hc{
+    grid-row: 2/2;
+}
+
+#np{
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+

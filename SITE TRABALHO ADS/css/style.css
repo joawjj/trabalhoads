@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #B0C4DE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-botoes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.botao{
+    height: 100px;
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: -5px 5px black;
+    cursor: pointer;
+}
+
+.botao:hover{
+    transition: 1s;
+    background-color: #DCDCDC;
+}
+
+.botao:active{
+    box-shadow: 0px 0px;
+    transition: 100ms;
+    transform:translate(-5px, 5px);
+}
+#title{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
